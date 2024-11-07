@@ -28,6 +28,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
 
     background-color: white;
@@ -43,8 +44,17 @@ body{
     box-sizing: border-box;
 }
 
-h3, p {
+h3 {
+    padding: 10px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+}
+
+p {
     font-size: 15px;
+    padding: 10px;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
 }
 
 
